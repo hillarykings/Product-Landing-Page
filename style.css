@@ -1,0 +1,167 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#header-img {
+  width: 80px;
+  height: auto;
+}
+#logo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  min-height: 50px;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+/*   align-items: center; */
+  background-color: #fff;
+}
+
+/* h1 {
+  font-size: 20px;
+} */
+
+ #page-title {
+  font-size: 16px;
+  color: #000;
+  text-align: center;
+   margin-top: 40px;
+} 
+#page-title2 {
+  color: #3333cc;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin-right: 40px;
+}
+
+li a {
+   text-decoration: none;
+  display: inline-block;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  float: right;
+  padding: 10px;
+}
+
+#main-div {
+  display: grid;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+
+#Products {
+  display: flex;
+  margin: 40px 0 0 0;
+  width: 80%;
+  margin: auto;
+}
+
+#product {
+  border: 1.5px solid #ddd;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+ 
+}
+
+#product p {
+  padding: 0 15px 0 15px;
+}
+
+#product img {
+  width: 100px;
+  height: auto;
+}
+
+#btn {
+  border: none;
+  color: #fff;
+  background: #3333cc;
+  padding: 10px 20px;
+}
+
+#btn:hover {
+  background: #24248f;
+  cursor: pointer;
+}
+
+#Service {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+#Service div {
+  padding: 10px;
+}
+
+#Service h1 {
+  color: #3333cc;
+}
+
+.icons {
+  font-size: 35px;
+  color:  #ff5c33;
+}
+
+.icons:hover {
+  color: #ccc;
+}
+
+#video {
+  width: 50%;
+  margin: auto;
+}
+
+#form {
+  width: 30%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+#form-input, #email {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+#submit {
+  width: 350px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin-top: 5px;
+  background: #3333cc;
+  color: #fff;
+  
+}
+
+#submit:hover {
+  background: #24248f;
+  cursor: pointer;
+}
+
+@media (max-width: 350px) {
+  #main-div {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
